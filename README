@@ -1,0 +1,9 @@
+# Building QT 5.6
+This program uses QT 5.6. You must make QT prior to building Pending Specimen DB. QT is licensed under LGPL version 3. That license should be included with the QT 5.6 source. Follow the README included with the QT 5.6 source to build QT. The source is in qt/qt5_6_src.tgz. 
+
+
+# Building Pending Specimen DB
+#TODO: mention static vs dynamic link to qt
+qmake
+make
+
