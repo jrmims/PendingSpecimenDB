@@ -3,7 +3,5 @@ This program uses QT 5.6. You must make QT prior to building Pending Specimen DB
 
 
 # Building Pending Specimen DB
-#TODO: mention static vs dynamic link to qt
-qmake
-make
+This program was compiled by statically linking to the QT library. Modify the Makefile to match the location of your library, then run make. To dynamically link, run qmake, and then run make.
 
